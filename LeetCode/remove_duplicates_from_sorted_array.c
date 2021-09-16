@@ -3,7 +3,7 @@
 int removeDuplicates(int* nums, int numsSize)
 {
 	int i=0, j;
-	for(j=1; j < numsSize; j++)
+	for(j=0; j < numsSize; j++)
 	{
 		if(nums[j] != nums[i])
 		{
@@ -11,6 +11,7 @@ int removeDuplicates(int* nums, int numsSize)
 			nums[i] = nums[j];
 		}
 	}
+	printf("Output : %d,",i+1);
 	return i+1;
 }
 
