@@ -1,2 +1,3 @@
 # Hackerearth_Leetcode
-Problems based on Hackerearth, leetcode
+
+Problemss solved from Hackerearth, leetcode
