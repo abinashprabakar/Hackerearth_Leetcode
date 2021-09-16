@@ -3,6 +3,10 @@
  * 	   1 2 3 4 5 	---> elements
  *
  * output : 4 5 1 2 3
+ *
+ * Email : abinashprabakaran@gmail.com
+ * Date : 16.09.2021
+ * Author : Abinash
  */
 
 #include<stdio.h>

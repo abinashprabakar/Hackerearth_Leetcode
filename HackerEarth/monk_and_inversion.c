@@ -7,6 +7,10 @@
  * 	   2   --> 2x2 matrix
  * 	   4 3 
  * 	   1 4
+ *
+ * Email : abinashprabakaran@gmail.com
+ * Date : 15.09.2021
+ * Author : Abinash
  */
 
 #include<stdio.h>

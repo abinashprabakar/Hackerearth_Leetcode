@@ -4,6 +4,10 @@
  *
  * output : 457
  * 	    124
+ *
+ * Email : abinashprabakaran@gmail.com
+ * Date : 15.09.2021
+ * Author : Abinash
  */
 
 #include<stdio.h>
