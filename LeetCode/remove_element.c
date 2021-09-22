@@ -8,6 +8,9 @@
  *
  * Return k after placing the final result in the first k slots of nums.
  *
+ * Input: nums = [3,2,2,3], val = 3
+ *	Output: nums = [2,2,_,_]
+ *
  * Email : abinashprabakaran@gmail.com
  * Date : 16.09.2021
  * Author : Abinash
