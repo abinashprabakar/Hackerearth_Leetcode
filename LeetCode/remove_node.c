@@ -35,26 +35,26 @@ NODE *add_node(NODE *head, int arr)
 
 NODE* remove_node(NODE *head, int n)
 {
-		NODE *current = head, *prev = NULL;
-		while(current != NULL)
+		NODE *temp = head, *prev = NULL;
+		while(temp != NULL)
 		{
-			if(current->data == n)
+			if(temp->data == n)
 			{
-				if(current == head)
+				if(temp == head)
 				{
-					head = current->next;
-					current = head;
+					head = temp->next;
+					temp = head;
 				}
 				else
 				{
-					prev->next = current->next;
-					current = current->next;
+					prev->next = temp->next;
+					temp = temp->next;
 				}
 			}
 			else
 			{
-				prev = current;
-				current = current->next;
+				prev = temp;
+				temp = temp->next;
 			}
 
 		}
