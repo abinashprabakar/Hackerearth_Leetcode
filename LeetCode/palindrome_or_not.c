@@ -82,7 +82,9 @@ int main()
 
 	for(i=0; i<n; i++)
 		head = add_node(head, arr[i]);
+	
 	display(head);
+	
 	if(palindrome(head))
 		printf("true\n");
 	else
