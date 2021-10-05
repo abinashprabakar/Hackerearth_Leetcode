@@ -1,11 +1,11 @@
 /* Input: The input consist of three space seperated integers- input1,input2, input3 representing the three four-digit numbers.
 *  Output: print an integer representing the concatenation of four digits where 
 *				
-*					-- first digit represents the smallest digit in the thousands place of all three numbers,
-*					
-*  					-- second digit represents the largest digit in the hundreds place of all three numbers,
-*					-- third digit represents the largest digit in the tens place of all three numbers,
-*					-- fourth digit represents the largest digit in the units place of all three numbers.
+*	-- first digit represents the smallest digit in the thousands place of all three numbers,
+*	-- second digit represents the largest digit in the hundreds place of all three numbers,
+*	-- third digit represents the largest digit in the tens place of all three numbers,
+*	-- fourth digit represents the largest digit in the units place of all three numbers.
+*
 * input: 3521 2452 1352
 * Output: 1522
 *
@@ -20,7 +20,8 @@ int power(int a,int b)
 {
 	int val = 1;
 	if(b==0)
-	{
+	
+
 		return 1;
 	}
 	while(b)
