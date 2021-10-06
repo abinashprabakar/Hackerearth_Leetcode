@@ -20,8 +20,7 @@ int power(int a,int b)
 {
 	int val = 1;
 	if(b==0)
-	
-
+	{
 		return 1;
 	}
 	while(b)
